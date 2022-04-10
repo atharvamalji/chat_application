@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "helmet": "^5.0.2",
+    "mongoose": "^6.2.6",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  },
+  "name": "backend-rest-api",
+  "version": "1.0.0",
+  "description": "Backend api for chat application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app/index.js",
+    "temp_start": "node app/index.js"
+  },
+  "author": "Atharva Malji",
+  "license": "ISC"
+}
